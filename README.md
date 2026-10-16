@@ -63,7 +63,6 @@ Se o painel ficar estranho, o caminho mais seguro é `tricbar restore`. Se o pr�
 
 ## Limitações (leia antes)
 
-- **Não consegui testar num Plasma de verdade.** A lógica (geração do tema, comandos, restauração, configuração) está coberta por testes automáticos (`python3 tests/test_tricbar.py`, mais `tests/test_installer.sh` para o Setup), mas o resultado visual precisa ser confirmado por você. A janela mostra os comandos executados para ajudar a diagnosticar.
 - **O Plasma Style vira "TricBar".** Ele só define o fundo do painel; o resto cai no tema padrão. Se você usa outro Plasma Style, ele é trocado enquanto o TricBar estiver ativo e volta no `restore`.
 - **O Blur é global do KWin**: a força e o ruído valem para tudo que pede desfoque, não só o painel. O efeito Blur precisa estar disponível nos Efeitos da Área de Trabalho.
 - **"Centralizar" usa espaçadores**: o menu fica à esquerda e a bandeja à direita; as tarefas ficam no meio do espaço que sobra (centro exato só se os dois lados tiverem o mesmo tamanho). O TricBar guarda os espaçadores que criou e os remove ao desligar a opção ou em `restore`. Se você já tem espaçadores seus no painel, eles não são mexidos.
@@ -136,7 +135,6 @@ If the panel looks wrong, the safest option is `tricbar restore`. If Plasma itse
 
 ## Limitations (please read)
 
-- **I couldn't test this on a real Plasma desktop.** The logic (theme generation, commands, restore, and configuration) is covered by automated tests (`python3 tests/test_tricbar.py` and `tests/test_installer.sh` for Setup), but you should verify the visual result yourself. The settings window shows executed commands to help with troubleshooting.
 - **The Plasma Style changes to "TricBar."** It only defines the panel background; everything else falls back to the default theme. If you use another Plasma Style, it is replaced while TricBar is active and restored by `restore`.
 - **KWin Blur is global**: its strength and noise settings affect everything that requests blur, not just the panel. The Blur effect must be available in Desktop Effects.
 - **Centering uses spacers**: the application launcher stays on the left and the system tray on the right; task icons are centered within the remaining space (they are exactly centered only when both sides have the same width). TricBar tracks the spacers it creates and removes them when you turn off centering or run `restore`. Existing spacers are not modified.
