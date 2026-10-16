@@ -1,0 +1,19 @@
+[Desktop Entry]
+Type=Application
+Name=TricBar
+GenericName=Painel transparente
+Comment=Painel do Plasma transparente, com Blur, Acrylic ou cor única
+Exec=@BIN@
+Icon=tricbar
+Terminal=false
+Categories=Settings;DesktopSettings;Qt;KDE;
+Keywords=painel;transparente;blur;acrylic;barra;taskbar;
+Actions=Restore;Uninstall;
+
+[Desktop Action Restore]
+Name=Restaurar o padrão do Plasma
+Exec=@BIN@ restore
+
+[Desktop Action Uninstall]
+Name=Desinstalar o TricBar
+Exec=@BIN@-uninstall
