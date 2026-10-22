@@ -1,3 +1,6 @@
+Vou lançar o V2 igual a de versao de Windows!
+I'il release V2 identical to Windows Version!
+
 # TricBar para Linux (KDE Plasma 6)
 
 ### Portugues (BR)
